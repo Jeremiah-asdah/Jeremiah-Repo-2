@@ -11,3 +11,31 @@
     "text3 text3"
     "footer footer";
 }
+
+.navbar {
+    grid-area: navbar;
+}
+
+.heading {
+    grid-area: heading;
+}
+
+.text1{
+    grid-area: text1;
+}
+
+.image {
+    grid-area: image;
+}
+
+.text2 {
+    grid-area: text2;
+}
+
+.text3 {
+    grid-area: text3;
+}
+
+.footer {
+    grid-area: footer;
+}
