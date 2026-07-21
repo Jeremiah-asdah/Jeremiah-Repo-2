@@ -1,3 +1,6 @@
+body{
+    background-color: aliceblue;
+}
 
 .container {
     display: grid;
@@ -14,6 +17,15 @@
 
 .navbar {
     grid-area: navbar;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline;
+    padding: 15px;
 }
 
 .heading {
