@@ -6,9 +6,9 @@
     grid-template-areas: 
     "navbar navbar"
     "heading heading"
-    "text1 text1"
-    "image text2"
-    "text3 text3"
+    "text_1 text_1"
+    "image text_2"
+    "text_3 text_3"
     "footer footer";
 }
 
@@ -20,20 +20,20 @@
     grid-area: heading;
 }
 
-.text1 {
-    grid-area: text1;
+.text_1 {
+    grid-area: text_1;
 }
 
 .image {
     grid-area: image;
 }
 
-.text2 {
-    grid-area: text2;
+.text_2 {
+    grid-area: text_2;
 }
 
-.text3 {
-    grid-area: text3;
+.text_3 {
+    grid-area: text_3;
 }
 
 .footer {
