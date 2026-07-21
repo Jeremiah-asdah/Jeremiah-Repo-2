@@ -1,0 +1,13 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "navbar navbar"
+    "heading heading"
+    "text1 text1"
+    "image text2"
+    "text3 text3"
+    "footer footer";
+}
