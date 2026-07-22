@@ -20,6 +20,7 @@ body{
 
 .navbar {
     grid-area: navbar;
+    
 }
 
 .navbar ul {
@@ -29,6 +30,11 @@ body{
 .navbar li {
     display: inline;
     padding: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .heading {
