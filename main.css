@@ -20,7 +20,7 @@ body{
 
 .navbar {
     grid-area: navbar;
-    
+    text-align: center;
 }
 
 .navbar ul {
@@ -42,6 +42,7 @@ body{
 .heading {
     grid-area: heading;
     font-family: 'Lilita One', sans-serif;
+    text-align: center;
 }
 
 .text_1 {
@@ -63,4 +64,7 @@ body{
 .footer {
     grid-area: footer;
     font-family: 'Lilita One', sans-serif;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 21px;
 }
