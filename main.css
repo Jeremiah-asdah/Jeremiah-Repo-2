@@ -41,6 +41,7 @@ body{
 
 .heading {
     grid-area: heading;
+    font-family: 'Lilita One', sans-serif;
 }
 
 .text_1 {
@@ -61,4 +62,5 @@ body{
 
 .footer {
     grid-area: footer;
+    font-family: 'Lilita One', sans-serif;
 }
