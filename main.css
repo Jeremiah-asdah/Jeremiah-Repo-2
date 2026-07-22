@@ -31,7 +31,7 @@ body{
 
 .navbar li {
     display: inline;
-    padding: 15px;
+    padding: 13px;
     font-size: larger;
     background-color: #BFFFD4;
 }
@@ -40,6 +40,12 @@ body{
     text-decoration: none;
     font-weight: bold;
     color: #000;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    color: #fff;
+    background-color: #19AE4B;
     padding: 10px;
 }
 
