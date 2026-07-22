@@ -21,6 +21,8 @@ body{
 .navbar {
     grid-area: navbar;
     text-align: center;
+    background-color: #19AE4B;
+    padding: 20px 0;
 }
 
 .navbar ul {
@@ -31,12 +33,14 @@ body{
     display: inline;
     padding: 15px;
     font-size: larger;
+    background-color: #BFFFD4;
 }
 
 .navbar a {
     text-decoration: none;
     font-weight: bold;
     color: #000;
+    padding: 10px;
 }
 
 .heading {
@@ -47,6 +51,7 @@ body{
 
 .text_1 {
     grid-area: text_1;
+    text-align: justify;
 }
 
 .image {
