@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lilita+One&display=swap');
 
 body{
-    background-color: aliceblue;
+    background-color: rgb(203, 231, 255);
     font-family: 'Fredoka', sans-serif;
 }
 
@@ -47,11 +47,13 @@ body{
     grid-area: heading;
     font-family: 'Lilita One', sans-serif;
     text-align: center;
+    background-color: #FAFBFF;
 }
 
 .text_1 {
     grid-area: text_1;
     text-align: justify;
+    background-color: #716C67;
 }
 
 .image {
@@ -60,10 +62,12 @@ body{
 
 .text_2 {
     grid-area: text_2;
+    background-color: #61ddfc;
 }
 
 .text_3 {
     grid-area: text_3;
+    background-color: #0A506E;
 }
 
 .footer {
@@ -72,4 +76,5 @@ body{
     text-align: center;
     letter-spacing: 0.5px;
     font-size: 21px;
+    background-color: #19AE4B;
 }
