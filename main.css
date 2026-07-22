@@ -30,6 +30,7 @@ body{
 .navbar li {
     display: inline;
     padding: 15px;
+    font-size: larger;
 }
 
 .navbar a {
