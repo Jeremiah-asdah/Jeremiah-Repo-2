@@ -67,6 +67,7 @@ body{
     text-align: justify;
     background-color: #716C67;
     color: #FFFFBC;
+    text-align: right;
 }
 
 .image {
@@ -89,6 +90,7 @@ body{
     grid-area: text_3;
     background-color: #0A506E;
     color: #FFFFBC;
+    text-align: right;    
 }
 
 .footer {
