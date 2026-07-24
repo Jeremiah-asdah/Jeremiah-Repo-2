@@ -22,19 +22,22 @@ body{
     grid-area: navbar;
     text-align: center;
     background-color: #19AE4B;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 .navbar ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 .navbar li {
-    display: inline;
-    padding: 13px;
+    display: inline-block;
+    padding: 4px 7px;
     font-size: larger;
     background-color: #BFFFD4;
-    width: 200px;
+    border-radius: 5px;
 }
 
 .navbar li:hover {
@@ -46,14 +49,15 @@ body{
     text-decoration: none;
     font-weight: bold;
     color: #110054;
-    padding: 9px;
-    display: inline-block;
+    padding: 10px 0px;
+    display: block;    
+    width: 170px;
 }
 
 .navbar a:hover {
     color: #fff;
     background-color: #6CD790;
-    padding: 9px;
+    padding: 5px;
 }
 
 .heading {
