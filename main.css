@@ -34,6 +34,7 @@ body{
     padding: 13px;
     font-size: larger;
     background-color: #BFFFD4;
+    width: 200px;
 }
 
 .navbar li:hover {
@@ -45,13 +46,14 @@ body{
     text-decoration: none;
     font-weight: bold;
     color: #110054;
-    padding: 10px;
+    padding: 9px;
+    display: inline-block;
 }
 
 .navbar a:hover {
     color: #fff;
     background-color: #6CD790;
-    padding: 10px;
+    padding: 9px;
 }
 
 .heading {
