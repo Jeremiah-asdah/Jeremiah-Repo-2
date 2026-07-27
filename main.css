@@ -89,6 +89,8 @@ body{
     grid-area: text_2;
     background-color: #61ddfc;
     color: #080074;
+    text-align: justify;
+    padding: 10px;
 }
 
 .text_3 {
