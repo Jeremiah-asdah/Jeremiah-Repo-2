@@ -22,8 +22,7 @@ body{
     grid-area: navbar;
     text-align: center;
     background-color: #19AE4B;
-    padding: 15px;
-    overflow: auto;
+    padding: 5px;
 }
 
 .navbar ul {
@@ -35,6 +34,7 @@ body{
     font-size: larger;
     background-color: #BFFFD4;
     border-radius: 10px;
+    margin: 0px 10px;
 }
 
 .navbar li:hover {
