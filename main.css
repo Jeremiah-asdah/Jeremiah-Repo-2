@@ -34,7 +34,7 @@ body{
     font-size: larger;
     background-color: #BFFFD4;
     border-radius: 10px;
-    margin: 0px 10px;
+    margin: 0px 7px;
 }
 
 .navbar li:hover {
@@ -88,9 +88,10 @@ body{
 .text_2 {
     grid-area: text_2;
     background-color: #61ddfc;
-    color: #080074;
+    color: #00295e;
     text-align: justify;
     padding: 10px;
+    font-weight: bold;
 }
 
 .text_3 {
