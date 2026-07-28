@@ -35,11 +35,16 @@ body{
     background-color: #BFFFD4;
     border-radius: 10px;
     margin: 0px 7px;
+    box-shadow: 0 9px #999;
 }
 
 .navbar li:hover {
     background-color: #6CD790;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.navbar li:active {
+    transform: translateY(5px);
+    box-shadow: 0 5px #000;
 }
 
 .navbar a {
