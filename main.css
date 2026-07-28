@@ -98,9 +98,14 @@ body{
     font-weight: bold;
 }
 
+.text_2 p {
+    margin: 8px 8px 8px 8px;
+    padding: 10px;
+}
+
 .text_3 {
     grid-area: text_3;
-    background-color: #0A506E;
+    background-color: #0a496e;
     color: #FFFFBC;
     text-align: right;    
 }
