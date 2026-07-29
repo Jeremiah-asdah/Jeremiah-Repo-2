@@ -23,6 +23,7 @@ body{
     text-align: center;
     background-color: #19AE4B;
     padding: 5px;
+    overflow: auto;
 }
 
 .navbar ul {
@@ -62,6 +63,12 @@ body{
     background-color: #58ce7b;
     padding: 15px;
     border-radius: 10px;
+}
+
+.logo {
+    width: 130px;
+    height: auto;
+    left: auto;
 }
 
 .heading {
