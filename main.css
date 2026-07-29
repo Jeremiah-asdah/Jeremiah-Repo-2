@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lilita+One&family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lilita+One&family=Schoolbell&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body{
     background-color: #ebffef;
@@ -79,7 +79,7 @@ body{
 
 .heading {
     grid-area: heading;
-    font-family: 'Lilita One', sans-serif;
+    font-family: 'Shantell Sans', cursive;
     text-align: center;
     background-color: #e3fcf2;
     color: #10001d;
