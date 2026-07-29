@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lilita+One&family=Schoolbell&display=swap');
 
 body{
     background-color: #ebffef;
@@ -125,9 +125,15 @@ body{
 
 .footer {
     grid-area: footer;
-    font-family: 'Lilita One', sans-serif;
-    text-align: center;
+    font-family: 'Schoolbell', cursive;
+    text-align: left;
     letter-spacing: 0.5px;
-    font-size: 21px;
+    font-size: 25px;
+    font-weight: bolder;
     background-color: #19AE4B;
+}
+
+.footer h4 {
+    margin: 8px 8px 8px 20px;
+    padding: 10px;
 }
