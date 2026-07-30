@@ -111,7 +111,7 @@ body{
     font-weight: bold;
 }
 
-.text_2 p {
+p {
     margin: 8px 8px 8px 8px;
     padding: 10px;
 }
@@ -120,7 +120,8 @@ body{
     grid-area: text_3;
     background-color: #0a496e;
     color: #FFFFBC;
-    text-align: right;    
+    text-align: right;   
+    font-family: 'Lilita One', cursive; 
 }
 
 .footer {
