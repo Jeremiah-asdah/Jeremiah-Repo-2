@@ -70,6 +70,14 @@ body{
     border-radius: 10px;
 }
 
+.navbar h2 {
+    left: 170px;
+    position: absolute;
+    font-family: 'schoolbell', cursive;
+    color: #10001d;
+    font-size: 30px;
+}
+
 .logo {
     width: auto;
     height: 130px;
