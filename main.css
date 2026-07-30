@@ -124,6 +124,10 @@ p {
     font-family: 'Lilita One', cursive; 
 }
 
+.text_3 marquee {
+    font-size: 23px;
+}
+
 .footer {
     grid-area: footer;
     font-family: 'Schoolbell', cursive;
