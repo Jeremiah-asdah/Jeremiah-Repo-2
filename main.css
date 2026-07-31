@@ -99,6 +99,7 @@ body{
     background-color: #716C67;
     color: #FFFFBC;
     text-align: right;
+    font-size: large;
 }
 
 .image {
@@ -117,6 +118,7 @@ body{
     color: #00295e;
     text-align: justify;
     font-weight: bold;
+    font-size: 23px;
 }
 
 p {
@@ -147,6 +149,6 @@ p {
 }
 
 .footer h4 {
-    margin: 8px 8px 8px 20px;
+    margin: 8px 8px 8px 30px;
     padding: 10px;
 }
