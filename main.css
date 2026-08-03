@@ -39,8 +39,8 @@ body{
     display: inline-block;
     font-size: larger;
     background-color: #bfffcf;
-    border-radius: 10px;
-    margin: 0px 15px;
+    border-radius: 20px;
+    margin: 0px 20px;
     box-shadow: 0 9px #429156;
 }
 
@@ -67,7 +67,7 @@ body{
     color: #fff;
     background-color: #58ce7b;
     padding: 16px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .navbar h2 {
