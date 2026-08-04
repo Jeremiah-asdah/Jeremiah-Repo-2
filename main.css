@@ -105,6 +105,7 @@ body{
     font-size: large;
     padding: 0.275rem 0.38rem;
     font-size: large;
+    height: 3.75rem;
 }
 
 .image {
@@ -124,6 +125,7 @@ body{
     text-align: justify;
     font-weight: bold;
     font-size: 1.438rem;
+    height: 27.5rem;
 }
 
 p {
@@ -141,6 +143,7 @@ p {
 
 .text_3 marquee {
     font-size: 23px;
+    height: 4.375rem;
 }
 
 .footer {
@@ -151,6 +154,7 @@ p {
     font-size: 25px;
     font-weight: bolder;
     background-color: #19AE4B;
+    height: 4.52rem;
 }
 
 .footer h4 {
