@@ -64,7 +64,7 @@ body{
 }
 
 .navbar a:hover {
-    color: #fff;
+    color: #ebffef;
     background-color: #58ce7b;
     padding: 1rem;
     border-radius: 20px;
@@ -99,7 +99,7 @@ body{
 .text_1 {
     grid-area: text_1;
     text-align: justify;
-    background-color: #716C67;
+    background-color: #6C543B;
     color: #FFFFBC;
     text-align: right;
     font-size: large;
