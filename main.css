@@ -45,7 +45,7 @@ body{
 }
 
 .navbar li:hover {
-    background-color: #6CD790;
+    background-color: #5fd687;
 }
 
 .navbar li:active {
@@ -56,7 +56,7 @@ body{
 .navbar a {
     text-decoration: none;
     font-weight: bold;
-    color: #002418;
+    color: #024919;
     padding: 1rem;
     display: block;    
     width: 10.625rem;
@@ -64,7 +64,7 @@ body{
 }
 
 .navbar a:hover {
-    color: #ebffef;
+    color: #ffffff;
     background-color: #58ce7b;
     padding: 1rem;
     border-radius: 20px;
@@ -74,7 +74,7 @@ body{
     left: 10.625rem;
     position: absolute;
     font-family: 'schoolbell', cursive;
-    color: #10001d;
+    color: #ebffef;
     font-size: 1.875rem;
 }
 
@@ -90,9 +90,9 @@ body{
     font-family: 'Shantell Sans', cursive;
     text-align: center;
     background-color: #ebffef;
-    color: #10001d;
+    color: #443525;
     padding: 1.25rem 0rem;
-    height: 8.125rem;
+    height: auto;
     /* to change font size without affecting padding, just add width or height in this case*/
 }
 
@@ -100,12 +100,14 @@ body{
     grid-area: text_1;
     text-align: justify;
     background-color: #4F3E2C;
-    color: #FFFFBC;
+    color: #FFFFD0;
     text-align: right;
     font-size: large;
+    font-weight: bold;
     padding: 0.275rem 0.38rem;
-    font-size: large;
-    height: 3.75rem;
+    font-size: larger;
+    height: auto;
+    letter-spacing: 1px;
 }
 
 .image {
@@ -120,12 +122,13 @@ body{
 
 .text_2 {
     grid-area: text_2;
-    background-color: #61ddfc;
-    color: #00295e;
+    background-color: #c0facf;
+    color: #024919;
     text-align: justify;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 1.438rem;
-    height: 27.5rem;
+    height: auto;
+    padding: 0.27rem 0.35rem;
 }
 
 p {
@@ -135,15 +138,16 @@ p {
 
 .text_3 {
     grid-area: text_3;
-    background-color: #0a496e;
-    color: #FFFFBC;
+    background-color: #4F3E2C;
+    color: #FFFFD0;
     text-align: right;   
     font-family: 'Lilita One', cursive; 
 }
 
 .text_3 marquee {
     font-size: 23px;
-    height: 4.375rem;
+    height: auto;
+    letter-spacing: 0.8px;
 }
 
 .footer {
@@ -151,13 +155,14 @@ p {
     font-family: 'Schoolbell', cursive;
     text-align: left;
     letter-spacing: 0.031rem;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bolder;
     background-color: #19AE4B;
-    height: 4.52rem;
+    height: auto;
 }
 
 .footer h4 {
-    margin: 0.5rem 0.5rem 0.5rem 1.875rem;
-    padding: 0.625rem;
+    margin: 0.2rem 0.5rem 0.4rem 1.875rem;
+    padding: 0.62rem;
+    color: #ebffef;
 }
