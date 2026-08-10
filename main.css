@@ -21,7 +21,7 @@ body{
 .navbar {
     grid-area: navbar;
     text-align: center;
-    background-color: #19AE4B;
+    background-color: #16a345;
     padding: 1.25rem 1.563rem;
     display: flex;
     justify-content: center;
@@ -40,7 +40,7 @@ body{
     font-size: larger;
     background-color: #bfffcf;
     border-radius: 20px;
-    margin: 0px 20px;
+    margin: 0px 25px;
     box-shadow: 0 9px #429156;
 }
 
@@ -91,7 +91,7 @@ body{
     text-align: center;
     background-color: #ebffef;
     color: #443525;
-    padding: 1.25rem 0rem;
+    padding: 1rem 0.5rem;
     height: auto;
     /* to change font size without affecting padding, just add width or height in this case*/
 }
@@ -101,13 +101,12 @@ body{
     text-align: justify;
     background-color: #4F3E2C;
     color: #FFFFD0;
-    text-align: right;
-    font-size: large;
-    font-weight: bold;
-    padding: 0.275rem 0.38rem;
-    font-size: larger;
+    text-align: center;
+    font-size: 25px;    
+    padding: 0rem 0.38rem;
     height: auto;
     letter-spacing: 1px;
+    font-family: 'Lilita One', cursive;
 }
 
 .image {
@@ -126,9 +125,9 @@ body{
     color: #024919;
     text-align: justify;
     font-weight: 500;
-    font-size: 1.438rem;
+    font-size: 1.4rem;
     height: auto;
-    padding: 0.27rem 0.35rem;
+    padding: 0.15rem 0.35rem;
 }
 
 p {
@@ -145,7 +144,7 @@ p {
 }
 
 .text_3 marquee {
-    font-size: 23px;
+    font-size: 25px;
     height: auto;
     letter-spacing: 0.8px;
 }
@@ -155,14 +154,14 @@ p {
     font-family: 'Schoolbell', cursive;
     text-align: left;
     letter-spacing: 0.031rem;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bolder;
-    background-color: #19AE4B;
+    background-color: #16a345;
     height: auto;
 }
 
 .footer h4 {
     margin: 0.2rem 0.5rem 0.4rem 1.875rem;
-    padding: 0.62rem;
+    padding: 0.35rem;
     color: #ebffef;
 }
