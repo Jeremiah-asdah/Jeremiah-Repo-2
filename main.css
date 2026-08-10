@@ -93,7 +93,7 @@ body{
     color: #443525;
     padding: 1rem 0.5rem;
     height: auto;
-    /* to change font size without affecting padding, just add width or height in this case*/
+    /* to change font size without affecting padding, just add height (maybe rarely width?) in this case*/
 }
 
 .text_1 {
