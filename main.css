@@ -21,7 +21,7 @@ body{
 .navbar {
     grid-area: navbar;
     text-align: center;
-    background-color: #16a345;
+    background-color: #179942;
     padding: 1.25rem 1.563rem;
     display: flex;
     justify-content: center;
@@ -156,7 +156,7 @@ p {
     letter-spacing: 0.031rem;
     font-size: 26px;
     font-weight: bolder;
-    background-color: #16a345;
+    background-color: #179942;
     height: auto;
 }
 
