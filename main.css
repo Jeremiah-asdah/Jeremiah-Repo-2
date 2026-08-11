@@ -41,7 +41,7 @@ body{
     background-color: #bfffcf;
     border-radius: 20px;
     margin: 0px 25px;
-    box-shadow: 0 9px #429156;
+    box-shadow: 0 9px #2faf4f;
 }
 
 .navbar li:hover {
@@ -50,7 +50,7 @@ body{
 
 .navbar li:active {
     transform: translateY(5px);
-    box-shadow: 0 5px #2e6b41;
+    box-shadow: 0 5px #1e8841;
 }
 
 .navbar a {
