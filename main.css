@@ -132,7 +132,7 @@ body{
 
 p {
     margin: 0.5rem;
-    padding: 0.75rem;
+    padding: 0.74rem;
     line-height: 1.2;
 }
 
@@ -154,15 +154,15 @@ p {
     grid-area: footer;
     font-family: 'Schoolbell', cursive;
     text-align: left;
-    letter-spacing: 0.031rem;
-    font-size: 26px;
+    letter-spacing: 0.03rem;
+    font-size: 25px;
     font-weight: bolder;
     background-color: #179942;
     height: auto;
 }
 
-.footer h4 {
-    margin: 0.2rem 0.5rem 0.4rem 1.875rem;
-    padding: 0.35rem;
+.footer h3 {
+    margin: 0.2rem 0.3rem 0.3rem 1.6rem;
+    padding: 0.30rem;
     color: #ebffef;
 }
