@@ -149,6 +149,7 @@ p {
     height: auto;
     letter-spacing: 0.8px;
 }
+/* marquee is obsolete, not compatible with all browsers, have to find alternative code */
 
 .footer {
     grid-area: footer;
