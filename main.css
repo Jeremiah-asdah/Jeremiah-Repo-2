@@ -132,7 +132,7 @@ body{
 
 p {
     margin: 0.5rem;
-    padding: 0.65rem;
+    padding: 0.75rem;
     line-height: 1.2;
 }
 
@@ -159,7 +159,6 @@ p {
     height: auto;
     letter-spacing: 0.8px;
     white-space: nowrap;
-
     animation: scroll 45s linear infinite;
     padding-left: 100%;
     display: inline-block;
