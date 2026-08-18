@@ -152,7 +152,18 @@ p {
 /* marquee is obsolete, not compatible with all browsers, have to find alternative code */
 
 .text_3 div {
-    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    animation: scroll 35s linear infinite;
+    padding-left: 100%;
+    display: inline-block;
+}
+
+@keyframes scroll {
+    100% {
+        transform: translate(-100%, 0);
+    }
 }
 
 .footer {
