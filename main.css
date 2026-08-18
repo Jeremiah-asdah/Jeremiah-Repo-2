@@ -151,6 +151,10 @@ p {
 }
 /* marquee is obsolete, not compatible with all browsers, have to find alternative code */
 
+.text_3 div {
+    
+}
+
 .footer {
     grid-area: footer;
     font-family: 'Schoolbell', cursive;
