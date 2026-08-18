@@ -132,16 +132,8 @@ body{
 
 p {
     margin: 0.5rem;
-    padding: 0.74rem;
+    padding: 0.65rem;
     line-height: 1.2;
-}
-
-.text_3 {
-    grid-area: text_3;
-    background-color: #4F3E2C;
-    color: #FFFFD0;
-    text-align: right;   
-    font-family: 'Lilita One', cursive; 
 }
 
 /*
@@ -153,14 +145,21 @@ p {
     
 /* marquee is obsolete, not compatible with all browsers, have to find alternative code */
 
+.text_3 {
+    grid-area: text_3;
+    background-color: #4F3E2C;
+    color: #FFFFD0;
+    text-align: right;   
+    font-family: 'Lilita One', cursive; 
+}
+
 .text_3 div {
     font-size: 25px;
     height: auto;
     letter-spacing: 0.8px;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;
-    animation: scroll 40s linear infinite;
+    animation: scroll 45s linear infinite;
     padding-left: 100%;
     display: inline-block;
 }
