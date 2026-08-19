@@ -61,11 +61,13 @@ body{
     display: block;    
     width: 10.625rem;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .navbar a:hover {
     color: #ffffff;
     background-color: #58ce7b;
+    transition: 1s;
     padding: 1rem;
     border-radius: 20px;
 }
