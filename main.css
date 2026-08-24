@@ -89,8 +89,9 @@ body{
 
 .heading {
     grid-area: heading;
-    font-family: 'Shantell Sans', cursive;
+    font-family: 'Fredoka', sans-serif;
     text-align: center;
+    font-size: large;
     background-color: #ebffef;
     color: #443525;
     padding: 1rem 0.5rem;
@@ -105,7 +106,7 @@ body{
     color: #FFFFD0;
     text-align: center;
     font-size: 25px;    
-    padding: 0rem 0.38rem;
+    padding: 0rem 0.4rem;
     height: auto;
     letter-spacing: 1px;
     font-family: 'Lilita One', cursive;
