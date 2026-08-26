@@ -67,7 +67,7 @@ body{
 .navbar a:hover {
     color: #ffffff;
     background-color: #58ce7b;
-    transition: 1s;
+    transition: 0.5s;
     padding: 1rem;
     border-radius: 20px;
 }
