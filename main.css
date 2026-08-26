@@ -151,8 +151,7 @@ p {
 .text_3 {
     grid-area: text_3;
     background-color: #4F3E2C;
-    color: #FFFFD0;
-    text-align: right;   
+    color: #FFFFD0;  
     font-family: 'Lilita One', cursive; 
     overflow: hidden;
 }
