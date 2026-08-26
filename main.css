@@ -168,7 +168,7 @@ p {
     height: auto;
     letter-spacing: 0.8px;
     white-space: nowrap;
-    animation: scroll 45s linear infinite;
+    animation: scroll 60s linear infinite;
     padding-left: 100%;
     display: inline-block;
 }
