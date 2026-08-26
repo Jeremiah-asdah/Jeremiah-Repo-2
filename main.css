@@ -104,7 +104,6 @@ body{
 
 .text_1 {
     grid-area: text_1;
-    text-align: justify;
     background-color: #4F3E2C;
     color: #FFFFD0;
     text-align: center;
