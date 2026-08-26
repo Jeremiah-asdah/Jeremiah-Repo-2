@@ -183,6 +183,10 @@ p {
     animation-play-state: paused;
 }
 
+.text_3 span {
+    margin-right: 50px;
+}
+
 .footer {
     grid-area: footer;
     font-family: 'Schoolbell', cursive;
