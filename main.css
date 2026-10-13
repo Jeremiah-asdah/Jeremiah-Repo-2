@@ -91,9 +91,10 @@ body{
 
 .heading {
     grid-area: heading;
-    font-family: 'Barriecito', cursive;
+    font-family: 'fredoka', sans-serif;
     text-align: center;
     font-size: large;
+    font-weight: 600;
     background-color: #ebffef;
     color: #443525;
     padding: 1rem 0.5rem;
