@@ -92,7 +92,7 @@ body{
 .heading {
     grid-area: heading;
     font-family: 'fredoka', sans-serif;
-    text-align: justify;
+    text-align: center;
     font-size: large;
     font-weight: 600;
     background-color: #ebffef;
