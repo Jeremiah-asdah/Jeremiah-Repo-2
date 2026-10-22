@@ -116,6 +116,15 @@ body{
     grid-area: image;
 }
 
+/*
+Owners of the images used in this project:
+https://www.pexels.com/@pavel-danilyuk/ 
+
+https://www.pexels.com/@anastasia-shuraeva/ 
+
+https://www.pexels.com/@kampus/ 
+*/
+
 .image img {
     width: 100%;
     height: 100%;
