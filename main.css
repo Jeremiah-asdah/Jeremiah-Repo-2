@@ -135,14 +135,16 @@ body{
     background-color: #4F3E2C;
     color: #FFFFD0;
     text-align: center;
-    font-size: 1.563rem;    
+    font-size: clamp(1.1rem, 2.5vw, 1.563rem);
     padding: 0rem 0.4rem;
-    letter-spacing: 0.063rem;
+    letter-spacing: 0.06rem;
     font-family: 'Lilita One', cursive;
 }
 
 .image {
     grid-area: image;
+    min-width: 0; 
+    overflow: hidden; 
 }
 
 /*
@@ -158,6 +160,8 @@ https://www.pexels.com/@kampus/
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
+    min-height: 15rem;
 }
 
 .text_2 {
@@ -166,8 +170,9 @@ https://www.pexels.com/@kampus/
     color: #443525;
     text-align: justify;
     font-weight: 500;
-    font-size: 1.4rem;
-    padding: 0.5rem 0.5rem;
+    font-size: clamp(1rem, 1.8vw, 1.4rem); 
+    padding: clamp(0.5rem, 1.5vw, 1rem); 
+    min-width: 0; 
 }
 
 p {
@@ -195,7 +200,7 @@ p {
 }
 
 .text_3 div {
-    font-size: 1.563rem;
+    font-size: clamp(1.1rem, 2.5vw, 1.563rem);
     letter-spacing: 0.05rem;
     white-space: nowrap;
     animation: scroll 60s linear infinite;
@@ -214,7 +219,7 @@ p {
 }
 
 .text_3 span {
-    margin-right: 3.125rem;
+    margin-right: 3.1rem;
 }
 
 .footer {
@@ -222,7 +227,7 @@ p {
     font-family: 'Schoolbell', cursive;
     text-align: left;
     letter-spacing: 0.03rem;
-    font-size: 1.563rem;
+    font-size: clamp(1.1rem, 2.5vw, 1.563rem);
     font-weight: bolder;
     background-color: #179942;
 }
