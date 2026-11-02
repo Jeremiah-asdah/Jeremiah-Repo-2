@@ -24,7 +24,7 @@ body{
 .navbar { 
     grid-area: navbar; 
     background-color: #179942; 
-    padding: 0.8rem 1.5rem; 
+    padding: 0.85rem 1.5rem; 
     display: flex; 
     justify-content: flex-start; 
     align-items: center; 
@@ -123,12 +123,11 @@ body{
     grid-area: heading;
     font-family: 'fredoka', sans-serif;
     text-align: center;
-    font-size: large;
+    font-size: clamp(1rem, 2vw, 1.25rem); 
     font-weight: 600;
     background-color: #ebffef;
     color: #443525;
-    padding: 2rem 1rem;
-    /* to change font size without affecting padding, just add height (maybe rarely width?) in this case*/
+    padding: clamp(1rem, 3vw, 2rem) 1rem;
 }
 
 .text_1 {
