@@ -30,6 +30,7 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
+    gap: 1rem;
 }
 
 .navbar ul {
@@ -43,8 +44,8 @@ body{
     font-size: larger;
     background-color: #bfffcf;
     border-radius: 1.25rem;
-    margin: 0 1.563rem;
-    box-shadow: 0 0.563rem #2faf4f;
+    margin: 0 1.5rem;
+    box-shadow: 0 0.6rem #2faf4f;
 }
 
 .navbar li:hover {
@@ -53,7 +54,7 @@ body{
 
 .navbar li:active {
     transform: translateY(0.313rem);
-    box-shadow: 0 0.438rem #208831;
+    box-shadow: 0 0.5rem #208831;
 }
 
 .navbar a {
@@ -63,6 +64,7 @@ body{
     padding: 1rem;
     display: block;    
     width: 12rem;
+    min-width: 8rem;
     cursor: pointer;
     border-radius: 1.25rem;
 }
@@ -75,15 +77,16 @@ body{
 .navbar a:hover {
     color: #ffffff;
     background-color: #58ce7b;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .navbar h1 {
-    left: 10.625rem;
+    left: 10.6rem;
     position: absolute;
     font-family: 'schoolbell', cursive;
     color: #ebffef;
     font-size: 1.875rem;
+    white-space: nowrap;
 }
 
 .logo {
