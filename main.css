@@ -3,11 +3,12 @@
 body{
     background-color: #ebffef;
     font-family: 'Fredoka', sans-serif;
+    overflow-x: hidden;
 }
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
     grid-template-rows: auto;
     grid-template-areas: 
     "navbar navbar"
@@ -16,13 +17,15 @@ body{
     "image text_2"
     "text_3 text_3"
     "footer footer";
+    width: 100%; 
+    min-height: 100vh; 
 }
 
 .navbar {
     grid-area: navbar;
     text-align: center;
     background-color: #179942;
-    padding: 1.25rem 1.563rem;
+    padding: 1.2rem 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
