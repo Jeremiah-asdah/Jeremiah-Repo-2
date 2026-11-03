@@ -180,14 +180,12 @@ p {
 }
 
 /*
-
 .text_3 marquee {
     font-size: 1.563rem;
     height: auto;
     letter-spacing: 0.05rem;
-}
-    
-/* marquee is obsolete, not compatible with all browsers, have to find alternative code */
+}  
+marquee is obsolete, not compatible with all browsers, have to find alternative code */
 
 .text_3 {
     grid-area: text_3;
